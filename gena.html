@@ -1,23 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <nav>
-      <div>
-        <div>
-          <img src="https://cdn-icons-png.flaticon.com/512/3655/3655567.png" alt="logo" />
-          <a href="">Progrmacion</a>
-        </div>
-        <div>
-          <a href="">sobre nosotros</a>
-          <a href="">info</a>
-          <a href="">galeria</a>
-        </div>
-      </div>
-    </nav>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav img {
+      width: 50px;
+      height: auto;
+    }
+
+    nav .left, nav .right {
+      display: flex;
+      align-items: center;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 16px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+      color: blue
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="left">
+      <img src="https://cdn-icons-png.flaticon.com/512/3655/3655567.png" alt="logo" />
+      <a href="#">Programación</a>
+    </div>
+    <div class="right">
+      <a href="#">Sobre nosotros</a>
+      <a href="#">Info</a>
+      <a href="#">Galería</a>
+    </div>
+  </nav>
+</body>
 </html>
