@@ -1,0 +1,41 @@
+/* Estilos generales */
+.body {
+  margin: 0px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 100vh;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ddd;
+  background-color: #f0f0f0;
+}
+
+button {
+  min-width: 200px;
+  padding: 15px 30px;
+  font-size: 32px;
+  background-color: #3c91e6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #075a7a;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+/* Fin de estilos generales*/
